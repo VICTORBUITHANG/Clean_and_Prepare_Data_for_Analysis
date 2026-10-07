@@ -1,0 +1,24 @@
+# Track only the Python course and its reproducible inputs.
+/*
+!/.gitignore
+!/README.md
+!/Python_Clean_Prepare_Data_Course/
+
+# Keep source documents and generated study documents locally.
+*.pdf
+*.docx
+*.pptx
+*.tex
+*.mat
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+output/
+*.log
+*.aux
+*.out
+*.toc
+
